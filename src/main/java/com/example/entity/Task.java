@@ -16,6 +16,7 @@ import lombok.Data;
 @Entity
 @Table
 public class Task {
+    
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
